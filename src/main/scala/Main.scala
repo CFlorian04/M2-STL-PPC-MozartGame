@@ -2,7 +2,7 @@ package upmc.akka.ppc
 
 import akka.actor.{Props,  Actor,  ActorRef,  ActorSystem}
 
-object Concert extends App {
+object Main extends App {
   println("starting Mozart's game")
 
   val system = ActorSystem("MozartGame")

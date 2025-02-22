@@ -868,7 +868,7 @@ class DataBaseActor() extends Actor {
 
   def receive = {
     case GetMeasure(num) => {
-      println("Database : " + num)
+      //println("Database : " + num)
       sender() ! measures(num)
     }
     case _ => {
